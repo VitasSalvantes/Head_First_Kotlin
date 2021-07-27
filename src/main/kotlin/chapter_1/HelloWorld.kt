@@ -1,4 +1,14 @@
+package chapter_1
+
 fun main() {
-    val voice = "Pow!"
-    println("- $voice")
+    var x = 1
+
+    println("Before the loop. x = $x")
+
+    while (x < 4) {
+        println("In the loop. x = $x")
+        x++
+    }
+
+    println("After the loop. x = $x")
 }
