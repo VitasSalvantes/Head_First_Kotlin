@@ -36,7 +36,7 @@ I will add simple programs and examples of completing some tasks to this reposit
 ## Development progress ##
 
 - [x] Introduction
-- [ ] Chapter 1
+- [x] Chapter 1
 - [ ] Chapter 2
 - [ ] Chapter 3
 - [ ] Chapter 4
