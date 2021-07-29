@@ -12,6 +12,10 @@ fun main() {
     val typeString: String = "ABCD"
     val typesInKotlin = 9
 
+    var myArray = arrayOf(1, 2, 3)
+    var sizeOfMyArray = myArray.size
+
+
     val newTypeShort = typeByte.toShort()
     val newTypeInt = typeShort.toInt()
     val newTypeLong = typeInt.toLong()
