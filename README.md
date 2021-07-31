@@ -38,7 +38,7 @@ I will add simple programs and examples of completing some tasks to this reposit
 - [x] Introduction
 - [x] Chapter 1
 - [x] Chapter 2
-- [ ] Chapter 3
+- [x] Chapter 3
 - [ ] Chapter 4
 - [ ] Chapter 5
 - [ ] Chapter 6
