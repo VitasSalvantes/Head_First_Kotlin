@@ -6,6 +6,7 @@ fun main() {
     val options = arrayOf("Rock", "Paper", "Scissors")
     val gameChoice = getGameChoice(options)
     val userChoice = getUserChoice(options)
+    printResult(userChoice, gameChoice)
 }
 
 fun getGameChoice(options: Array<String>) = options[Random.nextInt(until = options.size)]
@@ -15,7 +16,7 @@ fun getUserChoice(options: Array<String>): String {
     var userChoice = ""
 
     while (!isValidChoice) {
-        println("Please enter one of the following:")
+        print("Please enter one of the following:")
         for (item in options) print(" $item")
         println(".")
 
@@ -30,4 +31,23 @@ fun getUserChoice(options: Array<String>): String {
     }
 
     return userChoice
+}
+
+fun printResult(userChoice: String, gameChoice: String) {
+    val result: String
+
+    if (userChoice == gameChoice) {
+        result = "Tie!"
+    } else {
+        if ((userChoice == "Rock" && gameChoice == "Scissors") ||
+            (userChoice == "Paper" && gameChoice == "Rock") ||
+            (userChoice == "Scissors" && gameChoice == "Paper")
+        ) {
+            result = "You win!"
+        } else {
+            result = "You lose!"
+        }
+    }
+
+    println("You chose $userChoice. I chose $gameChoice. $result")
 }
