@@ -1,5 +1,24 @@
 package chapter_5
 
-class Animal {
+open class Animal {
+    open val img = ""
+    open val food = ""
+    open val habitat = ""
+    val hunger = 10
 
+    open fun makeNoise() {
+        println("The Animal is making a noise")
+    }
+
+    open fun eat() {
+        println("The Animal is eating")
+    }
+
+    open fun roam() {
+        println("The Animal is roaming")
+    }
+
+    fun sleep() {
+        println("The Animal is sleeping")
+    }
 }
