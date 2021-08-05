@@ -1,4 +1,7 @@
 package chapter_5
 
-class Canine {
+open class Canine : Animal() {
+    override fun roam() {
+        println("The canine is roaming")
+    }
 }
