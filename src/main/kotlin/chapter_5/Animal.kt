@@ -1,18 +1,14 @@
 package chapter_5
 
-open class Animal {
-    open val img = ""
-    open val food = ""
-    open val habitat = ""
+abstract class Animal {
+    abstract val img: String
+    abstract val food: String
+    abstract val habitat: String
     val hunger = 10
 
-    open fun makeNoise() {
-        println("The Animal is making a noise")
-    }
+    abstract fun makeNoise()
 
-    open fun eat() {
-        println("The Animal is eating")
-    }
+    abstract fun eat()
 
     open fun roam() {
         println("The Animal is roaming")
