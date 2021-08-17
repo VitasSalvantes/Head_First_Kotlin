@@ -64,5 +64,28 @@ fun main() {
     println(newFriendSet.contains("Lili"))
     println("--------------------------------")
 
-
+    val r1 = "Chicken Soup"
+    val r2 = "Quinoa Salad"
+    val r3 = "Thai Curry"
+    val recipes = mapOf<String, String>("Recipe1" to r1, "Recipe2" to r2, "Recipe3" to r3)
+    println(recipes.containsKey("Recipe4"))
+    println(recipes.containsValue(r1))
+    val recipe = recipes.getValue("Recipe3")
+    println("--------------------------------")
+    for ((key, value) in recipes) println("${key}: $value")
+    println("--------------------------------")
+    val newRecipes = recipes.toMutableMap()
+    newRecipes.put("Recipe4", "$r2 $r3")
+    newRecipes.putAll(recipes)
+    println(newRecipes)
+    newRecipes.remove("Recipe4")
+    newRecipes.remove("Recipe1", r2)
+    println(newRecipes)
+    println("--------------------------------")
+    val recipeEntries = newRecipes.entries
+    println(recipeEntries)
+    val keys = newRecipes.keys
+    val values = newRecipes.values
+    println("$keys\n$values")
+    println("--------------------------------")
 }
