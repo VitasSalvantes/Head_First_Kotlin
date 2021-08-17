@@ -54,4 +54,15 @@ fun main() {
     println(newShopping.toString())
     println("--------------------------------")
 
+    val friendSet = setOf("Lui", "David", "Anna")
+    println(friendSet)
+    println("--------------------------------")
+    val newFriendSet = friendSet.toMutableSet()
+    newFriendSet.add("Lui")
+    println(newFriendSet)
+    println("--------------------------------")
+    println(newFriendSet.contains("Lili"))
+    println("--------------------------------")
+
+
 }
