@@ -45,7 +45,7 @@ I will add simple programs and examples of completing some tasks to this reposit
 - [x] Chapter 7
 - [x] Chapter 8
 - [x] Chapter 9
-- [ ] Chapter 10
+- [x] Chapter 10
 - [ ] Chapter 11
 - [ ] Chapter 12
 - [ ] Attachment A
