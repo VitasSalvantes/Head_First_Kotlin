@@ -49,7 +49,7 @@ I will add simple programs and examples of completing some tasks to this reposit
 - [x] Chapter 11
 - [x] Chapter 12
 - [x] Attachment A
-- [ ] Attachment B
+- [x] Attachment B
 - [ ] Attachment C
 
 ## Project statistics ##
