@@ -8,6 +8,9 @@ by Dawn and David Griffiths.
 
 I started on **July 27, 2021**.
 
+I finished on **August 28, 2021**. It was great! I significantly deepened my knowlege of the Kotlin programming
+language.
+
 ## Content ##
 
 - [How does it work](#How-does-it-work)
@@ -50,7 +53,7 @@ I will add simple programs and examples of completing some tasks to this reposit
 - [x] Chapter 12
 - [x] Attachment A
 - [x] Attachment B
-- [ ] Attachment C
+- [x] Attachment C
 
 ## Project statistics ##
 
