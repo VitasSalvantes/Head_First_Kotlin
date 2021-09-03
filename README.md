@@ -50,7 +50,7 @@ I will add simple programs and examples of completing some tasks to this reposit
 - [x] Attachment B
 - [x] Attachment C
 
-Development of the project began on **July 27, 2021**, and completed on **August 28, 2021**.
+Development of the project began on **July 27, 2021** and completed on **August 28, 2021**.
 
 ## Project statistics ##
 
