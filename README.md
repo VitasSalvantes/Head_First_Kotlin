@@ -6,12 +6,7 @@ I decided to thoroughly study the [Kotlin](https://kotlinlang.org/) programming 
 book [Head First Kotlin](https://www.oreilly.com/library/view/head-first-kotlin/9781491996683/)
 by Dawn and David Griffiths.
 
-I started on **July 27, 2021**.
-
-I finished on **August 28, 2021**. It was great! I significantly deepened my knowlege of the Kotlin programming
-language.
-
-## Content ##
+## Table of contents ##
 
 - [How does it work](#How-does-it-work)
 - [Technologies](#Technologies)
@@ -54,6 +49,8 @@ I will add simple programs and examples of completing some tasks to this reposit
 - [x] Attachment A
 - [x] Attachment B
 - [x] Attachment C
+
+Development of the project began on **July 27, 2021**, and completed on **August 28, 2021**.
 
 ## Project statistics ##
 
